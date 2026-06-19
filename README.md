@@ -40,6 +40,11 @@ border-radius: 45px;
       color: white;
     }
     .flex-vertical{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
         align-items: center;
         padding-top: 10%;
         display: flex;
