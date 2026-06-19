@@ -12,7 +12,7 @@ html {
     }
     .btn{
         align-content: center;
-        font-family: font-family: "Comic Sans MS", "Comic Sans";
+        font-family: font-family: "Comic Sans MS", "Comic Sans, Brush Script MT, Brush Script Std";
         max-width: 85vw;
         corner-shape: squircle;
 border-radius: 45px;
