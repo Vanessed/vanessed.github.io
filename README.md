@@ -9,6 +9,7 @@ display: none;
 }
 html {
       height: 100VH;
+   overflow: hidden;
     }
     .btn{
         align-content: center;
