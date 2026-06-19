@@ -41,7 +41,7 @@ border-radius: 45px;
     }
     .flex-vertical{
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
