@@ -41,7 +41,7 @@ border-radius: 45px;
     }
     body {
       background-repeat: no-repeat;
-      background: linear-gradient(#edf6f6, #6ad7d7);
+      background: linear-gradient(#edf6f6, #87f2f2,#418399);
       display: flex;
       flex-direction: column;
       align-items: center;
