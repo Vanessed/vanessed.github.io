@@ -8,11 +8,12 @@ h1{
 display: none;
 }
 html {
-      height: 100%;
+      height: 100VH;
     }
     .btn{
         align-content: center;
-        font-family: cursive;
+        font-family: font-family: "Comic Sans MS", "Comic Sans";
+        max-width: 85vw;
         corner-shape: squircle;
 border-radius: 45px;
       color: #4e4d4d !important;
