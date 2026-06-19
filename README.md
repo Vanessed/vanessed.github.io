@@ -3,15 +3,25 @@
 </head>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
 <style>
+header {
+  display: none;
+}
+h1{
+display: none;
+}
 html {
-      height: 100%;
+      height: 100VH;
+   overflow: hidden;
     }
     .btn{
         align-content: center;
-        font-family: cursive;
+        font-family: "Comic Relief";
+        max-width: 85vw;
         corner-shape: squircle;
 border-radius: 45px;
       color: #4e4d4d !important;
@@ -38,6 +48,11 @@ border-radius: 45px;
       color: white;
     }
     .flex-vertical{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
         align-items: center;
         padding-top: 10%;
         display: flex;
